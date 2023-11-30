@@ -1,6 +1,6 @@
 // App.jsx
-
 import { useState } from "react";
+import RenderName from "./RenderName";
 
 const App = () => {
   const [heading, setHeading] = useState("Magnificent Monkeys");
@@ -11,6 +11,7 @@ const App = () => {
 
   return (
     <>
+      <RenderName/>
       <button type="button" onClick={clickHandler}>
         Click Me
       </button>
